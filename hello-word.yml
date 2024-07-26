@@ -1,0 +1,9 @@
+name: hello word
+on:
+ push:
+    branches: [mani]
+jobs:
+    say-hello:
+        runs-on: ubuntu-latest
+        sreps:
+            run: echo hello word
