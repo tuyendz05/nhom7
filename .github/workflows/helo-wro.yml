@@ -6,4 +6,4 @@ jobs:
   say-hello:
     runs-on: unbuntu-latest
     steps:
-      - run: echo "hello word"
+      - run: echo hello word
