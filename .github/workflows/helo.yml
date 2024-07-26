@@ -1,0 +1,9 @@
+name: hello world
+on:
+  push:
+    braches: [main]
+jobs:
+  say-hello:
+    runs-on: unbuntu-latest
+    steps:
+      run: echo hello word
