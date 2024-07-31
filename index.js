@@ -9,3 +9,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
 });
+res.send('Hello, CI/CD with GitHub Actions! This is a new version.');
